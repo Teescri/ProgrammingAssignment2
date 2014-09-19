@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Given a matrixCacheMatrix returns its inverted matrix.
+## Given a matrixCacheMatrix that MUST be invertible,returns its inverted matrix.
 ## It returns a cached inverted matrix if it was previously computed.
 
 cacheSolve <- function(x, ...) {
